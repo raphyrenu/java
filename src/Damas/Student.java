@@ -34,6 +34,13 @@ public class Student extends Person {
                 '}';
     }
 
+    @Override
+    public void printn(){
+        double a = Math.PI;
+        super.print();
+        System.out.println("I am student");
+    }
+
     public void setSchool(String school) {
         this.school = school;
     }

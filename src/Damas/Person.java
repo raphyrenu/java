@@ -15,7 +15,9 @@ public class Person {
 
 
     }
-
+ final public void printn(){
+    System.out.println("I am student");
+}
     public Person(int id, String firstName, String lastName, int age){
         this.age=age;
         this.firstName=firstName;
@@ -40,6 +42,7 @@ Person person = new Person(21,"Raphael","Nibishaka",20);
 
 
     }
+
 
 
 
